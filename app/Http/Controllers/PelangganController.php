@@ -42,7 +42,7 @@ class PelangganController extends Controller
     
         if (!$pelanggan) {
             return response()->json([
-                "pesan" => "pelanggan tidak ditemukan"
+                "pesan" => "pelanggan tidak ditemukan tod"
             ], 404);
         }
     
